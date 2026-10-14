@@ -1,0 +1,27 @@
+project:
+  type: website
+  resources: 
+    - CV.pdf
+
+website:
+  title: "Valentin Michels"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: CV
+        href: cv.qmd
+
+format:
+  html:
+    theme:
+      - lumen
+      - styles.scss
+    toc: false
+
+
+

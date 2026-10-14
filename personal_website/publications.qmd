@@ -1,0 +1,60 @@
+---
+title: "Publications & Conferences"
+bibliography: files/Papers.bib
+nocite: |
+  @michelsNonInvasivePhenotypingSugar2025
+  @michelsQuantitativePhenotypingCrop2024
+  @weigandDesignOperationLongterm2022
+include-after-body: highlight-author.html
+---
+
+This page contains a list of my publications and conference contributions (updated October 2026). For a pdf version of my publications, please download [here](files/Publication_List.pdf).
+
+## Publications
+
+<style>
+#refs .csl-entry {
+  margin-bottom: 1.5rem;
+}
+
+#conference-refs .csl-entry {
+  margin-bottom: 1.5rem;
+}
+</style>
+
+::: {#refs}
+:::
+
+## Conference contributions
+
+<div id="conference-refs" class="references csl-bib-body hanging-indent">
+
+<div class="csl-entry">
+Michels, Valentin, Simon De Cannière, Gina Lopez, Maximilian Weigand, Kevin Warstat, Sabine Seidel, Onno Muller, Uwe Rascher, Harry Vereecken, and Andreas Kemna. 2026. <span>“Investigating soil-plant-atmosphere interactions by combining spectral electrical impedance tomography with environmental and physiological timeseries.”</span> (invited). <em>Agrogeophysics Workshop</em>, Lisbon, Portugal.
+</div>
+
+<div class="csl-entry">
+Michels, Valentin, Simon De Cannière, Gina Lopez, Maximilian Weigand, Kevin Warstat, Bastian Siegmann, Sabine Seidel, Onno Muller, Uwe Rascher, Harry Vereecken, and Andreas Kemna. 2025. <span>“From root to leaf: Multi-sensor monitoring of the soil-plant-atmosphere continuum.”</span> (invited). <em>EGU General Assembly</em>, Vienna, Austria. <a href="https://doi.org/10.5194/egusphere-egu25-8723">https://doi.org/10.5194/egusphere-egu25-8723</a>.
+</div>
+
+<div class="csl-entry">
+De Canniere, Simon, Bastian Siegmann, Valentin Michels, Gina Lopez, Michael Herbst, Andreas Kemna, Harry Vereecken, François Jonard, and Sabine Seidel. 2024. <span>“Monitoring and modelling the diurnal dance between photosynthesis and transpiration.”</span> <em>4th VOD 4 Forest Workshop</em>, Oberpfaffenhofen, Germany.
+</div>
+
+<div class="csl-entry">
+Michels, Valentin, Maximilian Weigand, and Andreas Kemna. 2024. <span>“Investigating electrical polarization signatures of sugar beet and maize: A field study using spectral electrical impedance tomography.”</span> <em>EGU General Assembly</em>, Vienna, Austria. <a href="https://doi.org/10.5194/egusphere-egu24-16788">https://doi.org/10.5194/egusphere-egu24-16788</a>.
+</div>
+
+<div class="csl-entry">
+Michels, Valentin, Chunwei Chou, Maximilian Weigand, Yuxin Wu, and Andreas Kemna. 2024. <span>“Quantitative phenotyping of plant roots using spectral electrical impedance tomography.”</span> <em>Agrogeophysics Workshop</em>, Zürich, Switzerland. <a href="https://doi.org/10.62329/EXVV3683">https://doi.org/10.62329/EXVV3683</a>.
+</div>
+
+<div class="csl-entry">
+Michels, Valentin, Chunwei Chou, Maximilian Weigand, Yuxin Wu, and Andreas Kemna. 2023. <span>“Rhizotron scale imaging of crop root systems using spectral electrical impedance tomography with optimized measurement configurations.”</span> <em>AGU Fall Meeting</em>, San Francisco, United States.
+</div>
+
+<div class="csl-entry">
+Michels, Valentin, Maximilian Weigand, and Andreas Kemna. 2022. <span>“Sensing of winterwheat root-systems at the field scale using spectral electrical impedance tomography.”</span> <em>Agrogeophysics Workshop</em>, Brussels, Belgium.
+</div>
+
+</div>

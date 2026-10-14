@@ -1,0 +1,28 @@
+---
+title: "Valentin Michels"
+image: images/head.jpg
+about:
+  template: jolla
+  links:
+    - text: Github
+      icon: github
+      url: https://github.com/ValentinMichels
+    - text: LinkedIn
+      icon: linkedin
+      url: https://www.linkedin.com/in/valentin-michels-9a4011232/
+    - text: ORCID
+      icon: orcid
+      url: https://orcid.org/0009-0005-4339-4905
+    - text: ResearchGate
+      icon: researchgate
+      url: https://www.researchgate.net/profile/Valentin-Michels
+    - text: Google Scholar
+      icon: google-scholar
+      url: https://scholar.google.com/citations?user=L5kAYWIAAAAJ&hl=en
+---
+
+### Bio
+
+I am currently working as a Research Scientist within the Excellence Cluster ["Phenorob"](https://www.phenorob.de/index.html) at the University of Bonn in Germany. My research focuses on the use of geophysical imaging methods for environmental, agricultural, and geological applications. After completing my Bachelor's degree in Geosciences and Master's degree in Geophysics, I pursued a PhD in Geophysics at the University of Bonn. My doctoral research focused on developing spectral electrical impedance tomography (sEIT) as a field-scale imaging tool to non-invasively phenotype agricultural crop roots. 
+
+On this site, I keep a list of my [publications and conference contributions](publications.qmd), my [CV](cv.qmd), and an overview of my [research projects and interests](projects.qmd).

@@ -1,0 +1,11 @@
+---
+title: "CV"
+---
+
+<iframe
+  src="files/CV_Michels.pdf"
+  width="100%"
+  height="900"
+  style="border: none;"
+  title="Curriculum Vitae">
+</iframe>

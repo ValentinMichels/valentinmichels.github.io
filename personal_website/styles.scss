@@ -1,0 +1,92 @@
+/*-- scss:defaults --*/
+
+// Core Brand Colors
+$primary: #265c2b !default;      // Replaces Lumen's default primary accent
+$secondary: #e76f51 !default;      // Secondary elements and badges
+$light: #f4f1de !default;          // Light background sections
+
+// Typography & Backgrounds
+$body-bg: #ffffff !default;        // Main page background
+$body-color: #333333 !default;     // Primary body text color
+$link-color: #2b4f5d !default;     // Hyperlink color
+
+// Navigation Bar
+$navbar-bg: $primary !default;     // Navbar background color
+$navbar-fg: #ffffff !default;      // Navbar text and item color
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+$font-family-sans-serif: "EB Garamond", Garamond, Georgia, serif !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// Scales the overall body text size (1rem is standard; 1.1rem or 1.2rem makes it larger)
+$font-size-base: 1.1rem !default;
+
+// Optional: Adjust individual heading sizes if needed
+$h1-font-size: 2rem !default;
+$h2-font-size: 1.8rem !default;
+$h3-font-size: 1.4rem !default;
+
+/*-- scss:rules --*/
+
+a {
+  text-decoration: none;
+}
+
+// define hovercolor
+$hover-color: #e76f51 !default; 
+
+a:hover {
+  //background-color: rgba(43, 93, 79, 0.15); /* Soft primary color tint */
+  color: $hover-color !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.navbar .navbar-nav .nav-link {
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  //background-color: rgba(43, 93, 79, 0.15); /* Soft primary color tint */
+  color: $hover-color !important;
+  text-decoration: none !important;
+  transform: translateY(-1px);
+}
+
+.publication {
+  display: grid;
+  grid-template-columns: minmax(140px, 220px) 1fr;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(38, 92, 43, 0.2);
+}
+
+.publication h3 {
+  margin-top: 0;
+}
+
+.publication-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#refs .csl-entry {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  .publication {
+    display: block;
+  }
+
+  .publication-image {
+    max-width: 220px;
+    margin-bottom: 1rem;
+  }
+}

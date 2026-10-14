@@ -1,0 +1,46 @@
+<script>
+  const papers = document.getElementById("refs");
+  if (papers) {
+    [...papers.querySelectorAll(":scope > .csl-entry")]
+      .sort((a, b) => {
+        const year = (entry) => Number(entry.textContent.match(/\b(19|20)\d{2}\b/)?.[0] ?? 0);
+        return year(b) - year(a);
+      })
+      .forEach((entry) => papers.append(entry));
+  }
+
+  const referenceSections = document.querySelectorAll("#refs, #conference-refs");
+  referenceSections.forEach((refs) => {
+    const namePattern = /\b(?:Michels,\s*Valentin|Valentin\s+Michels)\b/g;
+    const walker = document.createTreeWalker(refs, NodeFilter.SHOW_TEXT);
+    const textNodes = [];
+    let node;
+
+    while ((node = walker.nextNode())) {
+      textNodes.push(node);
+    }
+
+    textNodes.forEach((textNode) => {
+      if (!namePattern.test(textNode.nodeValue)) {
+        namePattern.lastIndex = 0;
+        return;
+      }
+
+      namePattern.lastIndex = 0;
+      const fragment = document.createDocumentFragment();
+      let lastIndex = 0;
+      let match;
+
+      while ((match = namePattern.exec(textNode.nodeValue))) {
+        fragment.append(textNode.nodeValue.slice(lastIndex, match.index));
+        const name = document.createElement("strong");
+        name.textContent = match[0];
+        fragment.append(name);
+        lastIndex = match.index + match[0].length;
+      }
+
+      fragment.append(textNode.nodeValue.slice(lastIndex));
+      textNode.parentNode.replaceChild(fragment, textNode);
+    });
+  });
+</script>
